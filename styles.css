@@ -15,10 +15,10 @@
 .conteudo-inicio {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* empurra conteúdo para baixo */
-    align-items: center; /* centraliza horizontalmente */
-    height: 100vh;  /* altura total da viewport */
-    padding-bottom: 25px; /* espaço entre o botão e a borda inferior */
+    justify-content: flex-end; 
+    align-items: center; 
+    height: 100vh;  
+    padding-bottom: 25px; 
 }
 
 .btnJogar {
