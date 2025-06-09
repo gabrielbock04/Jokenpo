@@ -1,0 +1,148 @@
+/*inicio*/
+
+.fundo-inicio {
+    background-image: url('./assets/img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.conteudo-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center; 
+    height: 100vh;  
+    padding-bottom: 25px; 
+}
+
+.btnJogar {
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transform: translateY(-14px);
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 20, 57, 0.5);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-family: 'times new roman', sans-serif;
+}
+
+.btnJogar:hover {
+    color: rgb(81, 239, 78);
+    transform: translateY(-15px) scale(1.1); /* sobe + aumenta */
+}
+
+
+/*index*/
+
+.fundo {
+    background-image: url('./assets/img/fundo2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    color: rgb(255, 251, 251);
+    text-align: center;
+}
+
+.led-text {
+    position: relative;
+    top: -32px;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffff00; 
+    text-shadow: 0 0 5px #ffff00, 0 0 10px #ffffff; /* brilho */
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+}
+
+
+.conteudo {
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+}
+
+.btnJokenpo {
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.4s ease;
+    width: 195px;
+    height: 195px;
+}
+
+.btnJokenpo:hover {
+    transform: translateY(-15px) scale(1.1);
+    filter: brightness(1.3);
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.6), 0 0 20px rgba(255, 255, 0, 0.4);
+}
+
+.btnJokenpo.pedra {
+    background-image: url('assets/img/pedra.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btnJokenpo.papel {
+    background-image: url('assets/img/papel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btnJokenpo.tesoura {
+    background-image: url('assets/img/tesoura.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.resultado {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.gif-resultado {
+    display: block;
+    margin: 18px auto 0 auto; /* espaço acima e centralização */
+    width: 180px;            
+    border-radius: 8%;
+}
+.texto-vitoria {
+    color: #00ff00; 
+    font-weight: bold;
+}
+
+.texto-derrota {
+    color: #ff073a; 
+    font-weight: bold;
+}
+
+.texto-empate {
+    color: white; 
+    font-weight: bold;
+}
+
+
